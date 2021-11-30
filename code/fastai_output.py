@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 from sklearn.neighbors import KDTree
 from object_detection_fastai.helper.object_detection_helper import draw_rect, rescale_boxes, process_output, nms
-from MIDOG.Code.neural_style_transfer_modelling import style_transfer
+from .neural_style_transfer_modelling import style_transfer
 from fastai.vision import torch, image2np, LearnerCallback,Image
 from fastai.torch_core import to_np
 import random
