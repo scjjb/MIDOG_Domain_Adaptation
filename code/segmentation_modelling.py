@@ -9,8 +9,8 @@ from sklearn.neighbors import KDTree
 from torchvision import transforms
 import math
 from fastai.vision import tensor
-from MIDOG.Code.segmentation_processing import MIDOG_Images,get_mask_name,image_end_path,mask_end_path
-from MIDOG.Code.data_funcs import get_bbox_df
+from .segmentation_processing import MIDOG_Images,get_mask_name,image_end_path,mask_end_path
+from .data_funcs import get_bbox_df
 from torch.utils.data import WeightedRandomSampler
 
 
