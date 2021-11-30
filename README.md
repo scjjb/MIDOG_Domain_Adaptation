@@ -30,8 +30,8 @@ from MIDOG_Domain_Adaptation.code.segmentation_funcs import mask_segmentor
 
 We use non-overlapping 512x512 patches generated from the original MIDOG images. The following code creates segmentation masks from the originally provided bounding-box annotations, and generates the 512x512 patches (typical runtime of 20 minutes on Google Colab):
 ```bash
-from MIDOG_Domain_Adaptation.Code.data_funcs import get_bbox_df
-from MIDOG_Domain_Adaptation.Code.segmentation_funcs import mask_segmentor
+from MIDOG_Domain_Adaptation.code.data_funcs import get_bbox_df
+from MIDOG_Domain_Adaptation.code.segmentation_funcs import mask_segmentor
 
 df = get_bbox_df(image_folder="/path/to/input/images/",annotation_file="/path/to/annotation/file/named/MIDOG.json")
 image_ids=list(df['file_name'].unique())
