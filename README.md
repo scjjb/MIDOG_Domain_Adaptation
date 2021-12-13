@@ -1,4 +1,4 @@
-# MIDOG Domain Adaptation <img src="CISTIB logo.png" align="right" width="300"/>
+# MIDOG Domain Adaptation <img src="CISTIB logo.png" align="right" width="200"/>
 This repository contains the work we completed as part of the MIDOG challenge at the MICCAI 2021 conference, detailed at https://imi.thi.de/midog/. The corresponding paper for this work will be linked here when published. 
 
 The challenge focuses on accurate detection of mitotic figures (dividing cells) in H&E-stained breast cancer cells, when images are digitised using different scanners, with the training scanners labelled a-d below.  
