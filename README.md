@@ -11,6 +11,19 @@ Our work focuses on evaluating two visual domain adaptation approaches - CycleGA
 ## Example Notebook 
 The most straight-forward way to recreate this work is to follow the notebook 'MIDOG_Demo_Notebook.ipynb', which has examples of baseline model creation, and mitosis detection evaluation with/without domain adaptation techniques.
 
+## Domain Adaptation Examples
+Below are some examples of the domain adaptation techniques, CycleGAN and Neural Style Transfer, as well as Macenko normalisation.
+For more examples, please see the notebook "Domain_Adaptation_Examples.ipynb".
+
+Images from scanner (a) adjusted to the domain of scanner (b).
+<img src="imgs/Styles_Mod1.png" width="600"/>
+
+Images from scanner (b) adjusted to the domain of scanner (c).
+<img src="imgs/Styles_Mod2.png" width="600"/>
+
+Images from scanner (c) adjusted to the domain of scanner (a).
+<img src="imgs/Styles_Mod3.png" width="600"/>
+
 ## Using This Code
 - Enable GPU
 
