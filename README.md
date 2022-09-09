@@ -1,6 +1,6 @@
 # MIDOG Domain Adaptation <img src="CISTIB logo.png" align="right" width="200"/>
 
-[Our Paper](doi.org/10.1007/978-3-030-97281-3_2) | [MIDOG Challenge Website](https://imig.science/midog/) | [MIDOG Challenge Paper](https://arxiv.org/abs/2204.03742)
+[Our Paper](https://doi.org/10.1007/978-3-030-97281-3_2) | [MIDOG Challenge Website](https://imig.science/midog/) | [MIDOG Challenge Paper](https://arxiv.org/abs/2204.03742)
 
 This repository contains the work we completed as part of the MIDOG challenge at the MICCAI 2021 conference (links above).
 
