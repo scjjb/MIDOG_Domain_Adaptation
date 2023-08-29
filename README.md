@@ -1,6 +1,6 @@
 # MIDOG Domain Adaptation <img src="CISTIB logo.png" align="right" width="200"/>
 
-[Our Paper](https://doi.org/10.1007/978-3-030-97281-3_2) | [MIDOG Challenge Website](https://imig.science/midog/) | [MIDOG Challenge Paper](https://www.sciencedirect.com/science/article/pii/S1361841522003279)
+[Our Paper](https://doi.org/10.1007/978-3-030-97281-3_2) | [MIDOG Challenge Website](https://imig.science/midog/) | [MIDOG Challenge Paper](https://www.sciencedirect.com/science/article/pii/S1361841522003279) | [Cite](#reference) 
 
 This repository contains the work we completed as part of the MIDOG challenge at the MICCAI 2021 conference (links above).
 
@@ -71,4 +71,19 @@ References for model implementations:
 * U-Net: https://github.com/sneddy/pneumothorax-segmentation and https://amaarora.github.io/2020/09/06/siimacr.html
 * Neural style transfer: https://www.coursera.org/projects/deep-learning-with-pytorch-neural-style-transfer 
 * CycleGAN: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+
+## Reference
+
+Breen, J., Zucker, K., Orsi, N.M. and Ravikumar, N., 2021, September. Assessing domain adaptation techniques for mitosis detection in multi-scanner breast cancer histopathology images. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 14-22). Cham: Springer International Publishing. https://doi.org/10.1007/978-3-030-97281-3_2. 
+
+```
+@inproceedings{breen2021assessing,
+  title={Assessing domain adaptation techniques for mitosis detection in multi-scanner breast cancer histopathology images},
+  author={Breen, Jack and Zucker, Kieran and Orsi, Nicolas M and Ravikumar, Nishant},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={14--22},
+  year={2021},
+  organization={Springer}
+}
+```
 
